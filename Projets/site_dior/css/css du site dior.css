@@ -13,10 +13,12 @@
 }
 body{
     margin: 0px;
-    font-size: 100%;}
+    font-size: 100%;
+}
 li{
     list-style: none;
 }
+
 /*Nvagation dans la page */
 .navigation_page{
     border-top: .001em solid rgb(212, 212, 212);
@@ -70,9 +72,9 @@ h1{
     margin-bottom: 2rem;
 }
 .produit_phare{
-    padding-left: 5rem;
-    padding-right: 5rem;
-    margin-top: 4rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5%;
     font-family: Century_regular;
     margin-bottom: 3rem;
 }
@@ -124,22 +126,21 @@ h4{
     flex-wrap: wrap;
     padding: 0;
 }
-
 .produits{
     margin: auto;
     max-width: 635px;
 }
-
+.prod{
+    width: 75%;
+}
 .produits > p{
     font-size: .8125rem;
-    font-family: Century_regular;
 }
 .hashtags{
     font-family: Century_regular;
 }
-.nom_parfum , .prix{
+.nom_parfum, .prix{
     font-weight: bold;
-    font-family: Century_regular;
 }
 .description{
     margin-bottom: 1.2rem;
@@ -149,7 +150,7 @@ h4{
         flex-direction: column;
     }
 }
-p, h3, h4{
+h3,h4,h5,p{
     font-family: Century_regular;
 }
 /* Pour les remerciemments (prank)*/
