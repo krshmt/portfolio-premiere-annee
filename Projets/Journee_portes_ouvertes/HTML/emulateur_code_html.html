@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang='fr'>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/css_emulateur.css">
+    <title>Emulateur code HTML</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../IMAGES/IMAGES_PAGES_ACCEUIL/logo_iut.jpg" />
+    <script>
+        var tr_yes = "oui";
+        var tr_no = "non";
+        var tr_loaded_in = "charg\u00e9";
+        var tr_enter_valid_ip_or_domain = "Veuillez entrer une adresse IP ou un nom de domaine valide.";
+        var lang = 'fr';
+    </script>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+<body>
+    <div class='sandbar'></div>
+    <tr>
+        <td class='center'>
+            <ins class='adsbygoogle' style='display:block' data-ad-client='ca-pub-7891406799955373'
+                data-ad-slot='2020331992' data-ad-format='auto'></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </td>
+    </tr>
+    <tr>
+        <td class='center'>
+            <table class='test'>
+                <tr>
+                    <td class='center'>
+                        <h1>Testez vos connaissances sur le HTML</h1>
+                    </td>
+                </tr>
+                <script>
+                    function updateview() {
+                        var edit = document.getElementById('edit');
+                        var html = '<sc' + 'ript>setTimeout(function() {parent.postMessage(document.body.scrollHeight, "*");})</sc' + 'ript>' + edit.value;
+                        var encodedHtml = encodeURIComponent(html);
+                        var viewEl = document.getElementById('view');
+                        viewEl.style.height = '250px';
+                        viewEl.src = 'data:text/html,' + encodedHtml;
+                        resizeMe(edit);
+                    }
+                    var eventMethod = window.addEventListener ? 'addEventListener' : 'attachEvent';
+                    var eventer = window[eventMethod];
+                    var messageEvent = eventMethod == 'attachEvent' ? 'onmessage' : 'message';
+                    window.onload = updateview;
+                    eventer(messageEvent, function (e) {
+                        var key = e.message ? 'message' : 'data';
+                        var data = e[key];
+                        var viewEl = document.getElementById('view');
+                        viewEl.style.height = data + 'px';
+                    }, false);
+                </script>
+                <tr>
+                    <td class='center'>
+                        <textarea onchange='updateview();' onkeydown='updateview();' oninput='updateview();'
+                            onload='updateview();' autofocus placeholder='Entrez votre code HTML'
+                            title='Entrez votre code HTML' id='edit'><h2>Voici un exemple d'un code HTML</h2>
+<main>
+    <p>Voici un paragraphe</p>
+</main>
+<! -- exemple de commentaire et d'insersion d'image -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png" ref ="image d'un pont">
+</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='center'>
+                        <h3>Résultats du code :</h3>
+                        <iframe id='view'></iframe>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td class='separator'></td>
+    </tr>
+
+</body>
+
+</html>

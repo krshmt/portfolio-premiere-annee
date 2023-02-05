@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>MOOC sur la création de site WEB</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../IMAGES/IMAGES_PAGES_ACCEUIL/logo_iut.jpg" />
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='../CSS/page_html.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <header>
+        <h1>MOOC : COMMENT FAIRE UN SITE WEB</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a class="chapitre" href="./page_d_acceuil.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="./page_chapitre1.html">Chapitre 1 : l'HTML</a>
+                </li>
+                <li>
+                    <a href="./page_chapitre2.html">Chapitre 2 : le CSS</a>
+                </li>
+                <li>
+                    <a href="./questionnaire.html">Quizz (rapide) sur les notions vues</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="firstpart">
+        <ul>
+            <li>
+                <h2>LE HTML, C'EST QUOI ?</h2>
+                <p>Le langage HTML est un langage principalement utilisé pour la création de sites internet.
+                    Ce langage permet de structurer le contenu d'une page web.
+                    Grâce au HTML, nous pouvons créer des formulaires de saisie ou inclure du contenu visuel (vidéos,
+                    images, etc.).
+                </p>
+                <p>HTML est l'acronyme d'HyperText Markup Language. Il se traduit en « langage de balisage hypertexte ».
+                </p>
+                <p>L'HTML est souvent utilisé avec le langage de programmation JavaScript et/ou du CSS (que l'on verra
+                    plus tard dans ce MOOC)</p>
+            </li>
+            <li>
+                <h2>QU'EST-CE QU'UN ÉLÉMENT HTML ?</h2>
+                <p>Un élément HTML est composé de plusieurs éléments :</p>
+                <ul>
+                    <li>
+                        <p><u>Éléments HTML </u> : Les éléments HTML sont utilisés pour structurer un document écrit en
+                            HTML.</p>
+                    </li>
+                    <li>
+                        <p><u>Balise ouvrante/fermante</u> : Une balise ouvrante/fermante permet de définir le début/la
+                            fin du contenu d’un élément HTML.</p>
+                    </li>
+                    <li>
+                        <p><u>Attributs et valeurs</u> : Certains éléments peuvent posséder des attributs, chacun
+                            associé à une valeur.</p>
+                    </li>
+                </ul>
+                <img src="../IMAGES/Images_chapitres1/css_font_weight.png" alt="exemple d’un élément HTML">
+            </li>
+        </ul>
+    </div>
+    <div class="second-part">
+        <h2>LES DIFFÉRENTES BALISES À SAVOIR : </h2>
+        <h3>BALISES DE TYPE BLOCK</h3>
+        <p>Les balises de type block prennent toute la place disponible. Par exemple, un paragraphe constitué
+            d'une seule ligne prendra toute la largeur de la page.</p>
+        <ul>
+            <li>
+                <p class="text"><code>body</code> représente le contenu principal du document HTML. Il ne peut y avoir qu’un
+                    élément <code>body</code> par document.</p>
+            </li>
+            <li >
+                <p class="text"><code>main</code> représente le contenu ou la fonctionnalité principale du document.</p>
+            </li>
+            <li>
+                <p class="text"><code>header</code> représente un groupe de contenu introductif ou de contenu aidant à la
+                    navigation. Il peut contenir des éléments de titre, mais aussi d’autres éléments tels qu’un
+                    logo, un formulaire de recherche, etc.</p>
+            </li>
+            <li>
+                <p class="text"><code>footer</code> représente le pied de la section ou de la racine de sectionnement la plus
+                    proche. Un élément <code>footer</code> contient habituellement des informations sur
+                    l’autrice ou l’auteur de la section, les données relatives au droit d’auteur (copyright) ou
+                    les liens vers d’autres documents en relation.</p>
+            </li>
+            <li>
+                <p class="text"><code>aside</code> représente une partie d’un document dont le contenu n’a qu’un rapport
+                    indirect avec le contenu principal du document. Les aside ("apartés" en français) sont
+                    fréquemment présents sous la forme d’encadrés ou de boîtes de légende.</p>
+            </li>
+            <li>
+                <p class="text"><code>h1-h6</code> représentent six niveaux de titres dans un document, <code>h1</code> est
+                    le plus important et <code>h6</code> est le moins important.</p>
+            </li>
+            <li>
+                <p class="text"><code>nav</code> représente une section destinée à la navigation dans un document : des liens
+                    vers d’autres pages ou vers des fragments de cette page (menus, tables des matières, index,
+                    etc.).</p>
+            </li>
+            <li>
+                <p class="text"><code>section</code> représente une section générique d’un document. Une section commence
+                    généralement avec un titre.</p>
+            </li>
+            <li>
+                <p class="text"><code>p</code> représente un paragraphe de texte.</p>
+            </li>
+        </ul>
+        <h3>BALISES DE TYPE INLINE</h3>
+        <p>Un élément de type inline ne prendra que la place qui lui est nécessaire pour s'afficher sur la page.</p>
+        <ul>
+            <li>
+                <p class="text"><code>a</code> (pour anchor en anglais), avec son attribut href, crée un lien hypertexte vers des
+                    pages web, des emplacements se trouvant dans la même page, etc.</p>
+            </li>
+            <li>
+                <p class="text"><code>code</code> représente un court fragment de code machine.</p>
+            </li>
+            <li>
+                <p class="text"><code>img</code> intègre une image dans le document.</p>
+            </li>
+        </ul>
+        <h3>BALISE DE TYPE LISTE</h3>
+        <ul>
+            <li>
+                <p class="text"><code>ul</code> représente une liste non-ordonnée (puces, symboles).</p>
+            </li>
+            <li>
+                <p class="text"><code>ol</code> représente une liste ordonnée (numérotée par défaut).</p>
+            </li>
+            <li>
+                <p class="text"><code>li</code> est utilisé pour représenter un élément dans une liste. Il doit être contenu dans un
+                    élément parent : une liste ordonnée (<code>ol</code>), une liste non-ordonnée (<code>ul</code> ) ou
+                    un menu (<code>menu</code>).</p>
+            </li>
+        </ul>
+        <h3>EXEMPLE DE PLACEMENT DES ÉLÉMENTS HTML</h3>
+        <img src="../IMAGES/Images_chapitres1/position.png" alt="placement des éléments HTML">
+
+    </div>
+    <footer class="chapitre-suivant">
+        <p>Tu peux cliquer ici pour passer au chapitre suivant : <a href="./page_chapitre2.html"><u>Chapitre 2 : le
+                    CSS</u></a></p>
+    </footer>
+</body>
+
+</html>

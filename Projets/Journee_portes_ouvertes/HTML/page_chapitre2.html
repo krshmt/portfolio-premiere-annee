@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>MOOC sur la création de site WEB</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../IMAGES/IMAGES_PAGES_ACCEUIL/logo_iut.jpg" />
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='../CSS/css_page2.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <header>
+        <h1>MOOC : COMMENT FAIRE UN SITE WEB</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a class="chapitre"  href="./page_d_acceuil.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="./page_chapitre1.html">Chapitre 1 : l'HTML</a>
+                </li>
+                <li>
+                    <a href="./page_chapitre2.html">Chapitre 2 : le CSS</a>
+                </li>
+                <li>
+                    <a href="./questionnaire.html">Quizz (rapide) sur les notions vues</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+        <div class="firstpart">
+            <ul>
+                <li>
+                    <h2>LE CSS, C'EST QUOI ?</h2>
+                    <p>Le CSS correspond à un langage informatique permettant de mettre en forme des pages web (HTML ou XML).</p>
+                    <p>Ce langage est donc composé des fameuses « feuilles de style en cascade » (ou Cascading Style Sheets en anglais) également appelées fichiers CSS (.css) et contient des éléments de codage.</p>
+                    <p>Ce qu'il faut retenir du CSS c'est que c'est le code utilisé pour mettre en forme une page web.
+                    Il se charge de faire tout l'esthétique d'une page Internet.   
+                    </p>
+                </li>
+                <li>
+                    <h2>QU'EST-CE QU'UNE RÈGLE EN CSS</h2>
+                    <p>Une règle CSS est composée de deux éléments :</p>
+                    <ul>
+                        <li><p>Le sélecteur de balise précise à quelle balise du document HTML le style s'appliquera</p></li>
+                        <li><p>La déclaration de style précise le style qui doit être appliqué à la balise selectionée. </p></li>
+                    </ul>
+                    
+                </li>
+            </ul>
+        </div>
+        <div class="second-part">
+            <ul>
+                <li>
+                    <h2>LES DIFFÉRENTES RÈGLES CSS À SAVOIR : </h2>
+                    
+                    <p>Dans cette partie du cours, nous allons vous présenter ce qu'il faut faire pour bien réussir l'esthétique de votre page Internet afin de faciliter la lecture aux utilisateurs.
+                    </p>
+                    <p>Pour commencer, nous allons voir :</p>
+                    <ul>
+                        <li class="font-wei">
+                            <h3>LA PROPRIETE "FONT-WEIGHT"</h3>
+                            <p>La propriété CSS font-weight permet de définir la graisse utilisée pour le texte. 
+                                Les niveaux de graisse disponibles dépendent de la police (cf. font-family). 
+                                Certaines fontes n'existent qu'avec les niveaux de graisses normal et bold</p>
+                            <p class="last">Par exemple, si vous souhaitez faire grossir votre paragraphe, vous devez appliquer la règle suivante :
+                            </p>
+                            <p class="decla"> <CODE> p {font-weight : bold}</CODE></p>
+                            <img class="fw" src="../IMAGES/Images_chapitre2/css_font_weight.png" alt="Différents valeurs de la déclaration font weight">
+                        </li>
+                        <li class="font-wei">
+                            <h3>LA PROPRIETE "FONT-FAMILY"</h3>
+                            <p>La propriété CSS font-family définit la police de caractères de l'élément. Plusieurs polices 
+                                peuvent être spécifiées, séparées par des virgules. Le navigateur utilisera 
+                                la première qui est disponible sur le poste. Il est recommandé de terminer 
+                                cette liste par une police générique </p>
+                            <p>Par exemple, si on souhaite changer la police d'un paragraphe ou d'un titre, nous devons appliquer la règle suivante :
+                            </p>
+                            <p class="decla"><CODE>p {font-family : cursive}</CODE></p>
+                            <img class="fw" src="../IMAGES/Images_chapitre2/font-family.jpg" alt="Image de différentes polices">
+                        </li>
+                        <li class="font-wei">
+                            <h3>LA PROPRIETE "COLOR"</h3>
+                            <p>La propriété CSS color définit la couleur de premier plan d'un élément texte et 
+                                de ses éventuelles décorations. Elle définit également la valeur de currentcolor 
+                                (en-US) qui peut être utilisée pour d'autres propriétés (par exemple comme valeur 
+                                par défaut pour border-color).</p>
+                            <p class="last">Par exemple, si vous souhaitez changer la couleur d'un paragraphe, vous devez appliquer la règle suivante :
+                            </p>
+                            <p class="decla"> <code>p {color : red}</code></p>
+                            <img class="fw" src="../IMAGES/Images_chapitre2/css_color.png" alt="Différentes couleurs">
+                        </li>
+                        <li class="font-wei">
+                            <h3>LA PROPRIETE "BORDER" </h3>
+                            <p>Les propriétés de bordure CSS vous permettent de spécifier le style, la 
+                                largeur et la couleur de la bordure d'un élément.</p>
+                            <p class="last">Par exemple, pour mettre une bordure autour d'un texte ou d'un titre, vous devez appliquer la règle suivante : </p>
+                            <p class="decla"><code>p {border : solid}</code></p>
+                            <img class="fw" src="../IMAGES/Images_chapitre2/border_css.png" alt="Différentes bordures">
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+                
+    <footer class="chapitre-suivant">
+        <p>Tu peux cliquer ici pour passer au : <a href="./questionnaire.html">Quizz </a></p>
+    </footer>
+</body>
+
+</html>
