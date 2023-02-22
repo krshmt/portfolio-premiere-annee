@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../../CSS/Portfolio.css">
+    <link rel="stylesheet" href="../../CSS/banniere.css">
+    <link rel="stylesheet" href="../../CSS/header.css">
+    <link rel="stylesheet" href="../../CSS/footer.css">
+    <link rel="stylesheet" href="../../CSS/position-contenu.css">
+    <link rel="stylesheet" href="../../CSS/cartes.css">
+    <link rel="stylesheet" href="../../CSS/hover.css">
     <title>Portfolio de Kris TOURE</title>
-    <script src="../../CSS/test.js"></script> 
+    <!-- <script src="../../CSS/chargement.js"></script>  -->
 </head>
 <body>
+
+  <!-- page de chargement -->
   <div id="loading">
     <div class="loading-text">Mon portfolio en cours de chargement</div>
     <div class="loading-dots">
@@ -16,9 +24,11 @@
       <span class="dot"></span>
     </div>
   </div>
+
+  <!-- header -->
     <header>
         <nav>
-            <ul class="conteneur">
+            <ul class="liens_nav">
                 <li><h1>Mon Portfolio |</h1></li>
                 <li><a href="#presentation" class="page"><span>A propos de moi</span></a></li>
                 <li><a href="#projet" class="page"><span>Mes projets</span></a></li>
@@ -26,19 +36,25 @@
             </ul>
         </nav>
     </header>
-    <section id="presentation" class="presentation" style="background-image: url(../../IMAGES/river-surrounded-by-forests-under-cloudy-sky-in-thuringia-in-germany.jpg)">
-      <div class="pre" >
+
+
+    <!-- banniere -->
+    <section class="introduction-portfolio" style="background-image: url(../../IMAGES/river-surrounded-by-forests-under-cloudy-sky-in-thuringia-in-germany.jpg)">
+      <div class="intro_content" >
       <h2>- DÉVELOPPEMENT WEB FRONTEND -</h2>
       <p>Bonjour, je m'appelle Kris et je suis en première année de BUT Informatique à Orléans. Passionné du développement WEB depuis 6 mois,
         j'apprends en autodidacte à faire des pages WEB à côté des cours. Dans cette page web, je vais parler des projets que j'ai pu réalisé depuis septembre 2022, de mes passions,
-        du métier que je souhaite avoir à la fin de mes études et de mes compétances.
+        du métier. que je souhaite avoir à la fin de mes études et de mes compétances.
       </p>
       <a href=""><span>EN SAVOIR PLUS</span></a>
       </div>
-      
     </section>
-    <section class="liste">
+
+
+
+      <!-- informations sur moi -->
       <div class="infos">
+
         <div class="cartes">
           <div class="cartes-header">
             <img src="../../IMAGES/ecole.jpg" alt="rover" />
@@ -69,13 +85,15 @@
             </p>
           </div>
         </div>
-
         
         <div class="cartes">
+          <div class="cartes-header">
+            <img src="../../IMAGES/cls63.jpg" alt="rover" />
+          </div>
           <div class="cartes-body">
             <span class="tag titre">Mes passions</span>
             <blockquote>
-              <i>"La Formule 1 était un sport très dangereux., et l'est toujours... mais le facteur danger est aussi la partie excitante."</i> 
+              <i>"La Formule 1 était un sport très dangereux, et l'est toujours... mais le facteur danger est aussi la partie excitante."</i> 
               <i>- Lewis Hamilton  </i>
             </blockquote>
             <h4>
@@ -86,10 +104,8 @@
             <p>J'aime la Formule 1 car j'aime la course à cause du facteur risque, de la vitesse et de la précision que ça demande. C'est excitant, libérateur. Ca fait battre mon coeur comment les pilotes et les équipes poussent à la limite l'homme et la machine.
             </p>
           </div>
-          <div class="cartes-header">
-            <img src="../../IMAGES/cls63.jpg" alt="rover" />
-          </div>
         </div>
+
         <div class="cartes">
           <div class="cartes-header">
             <img src="../../IMAGES/salle.jpg" alt="rover" />
@@ -109,7 +125,11 @@
             </p>
           </div>
         </div>
+        
         <div class="cartes">
+          <div class="cartes-header" id="carte">
+            <img src="../../IMAGES/frontend-1024x683.jpg" alt="rover" />
+          </div>
           <div class="cartes-body">
             <span class="tag titre">Pourquoi devenir développeur WEB ?</span>
             <blockquote>
@@ -131,10 +151,8 @@
               C'est devenu une vrai passion !
             </p>
           </div>
-          <div class="cartes-header" id="carte">
-            <img src="../../IMAGES/frontend-1024x683.jpg" alt="rover" />
-          </div>
       </div>
+
       <div class="cartes">
         <div class="cartes-header">
           <img src="../../IMAGES/projet.jpg" alt="rover" />

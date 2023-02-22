@@ -1,0 +1,43 @@
+.intro_content {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(0, 0, 0, 0.659);
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.intro_content > p {
+    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-bottom: 3rem;
+}
+
+.intro_content > h2 {
+    margin-bottom: 4rem;
+}
+
+.introduction-portfolio {
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    color: white;
+}
+
+.introduction-portfolio > p {
+    margin: auto;
+    font-size: 1.5em;
+}
+
+.introduction-portfolio > h2 {
+    flex-grow: 1;
+    vertical-align: bottom;
+    padding-right: 2rem;
+    margin-right: 3em;
+    font-size: 1.25em;
+}
