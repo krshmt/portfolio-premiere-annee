@@ -3,6 +3,13 @@
     src: url(../POLICES/century/CenturyGothic.ttf);
 }
 
+@media screen and (max-width : 1000px) {
+  body{
+    font-size: 100%;
+  }
+}
+
+
 html{
   cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAICAYAAAArzdW1AAAACXBIWXMAABcRAAAXEQHKJvM/AAAAfElEQVQYGYWQwQ3CMAxFX7NA1Q0YIVIDPcImzMAG6QYdoatwjJJDRygbwARBXxQpBxrezfaT/O0m54w7DhaYgDMfHqpTDOrR9O50ABag3YSSMcXgJc3A9YfwpTOAVtWwkv4iSXlqLJI88NqxFPxpUgwrcAHuxVAvuOkygDdMhR9qCMDpaAAAAABJRU5ErkJggg==),auto!important;
 }
@@ -10,110 +17,29 @@ html{
 body{
     font-family: Century;
     margin: 0;
-    
+    font-size: 1.3rem;
 }
 
 
-.infos{
-  padding-left: 4rem;
-  padding-right: 4rem;
-  justify-content: center;
-  align-items: center;
-}
-
-.liste{
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 15rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-
-.cartes{
-  display: flex;
-  overflow: hidden;
-  font-size: 100%;
-  margin-bottom: 15%;
-}
-
-.titre{
-  background: rgb(0,37,71);
-  background: linear-gradient(90deg, rgba(0,37,71,1) 0%, rgba(40,12,184,1) 28%, rgba(0,52,180,1) 61%, rgba(66,190,255,1) 86%);
-}
-.cartes-header:nth-child(odd){
-  margin-right: auto;
-  margin-right: 2%;
-  flex-grow: 1;
-}
-.cartes-header:nth-child(even){
-  margin-left: auto;
-  margin-left: 2%;
-  flex-grow: 1;
-}
-.cartes-header:nth-child(odd) > img {
-  object-fit: cover;
-  height: 550px;
-  width: 850px;
-}
-.cartes-header:nth-child(even) > img {
-  object-fit: cover;
-  height: 500px;
-  width: 800px;
-}
-
-@media screen and (min-width: 1280px){
-
-  .cartes-header > img {
-      width: 1000px;
-  }
-}
-
-.cartes-body{
-  width: 500px;
-  min-height: 500px;
-  max-height: 500px;
-  padding-top: 3rem;
-}
-
-.cartes-body > p{
-  margin-bottom: 5%;
-  margin-top: 5%;
-  
-}
 
 
-blockquote{
-  border-left: thick solid black;
-  padding: 1rem;
-  margin-left: 0px;
-}
-
-.projet{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-}
 .container {
-    margin-bottom: 10rem;
-  flex-grow: 1;
+  margin-bottom: 10rem;
   display: flex;
-  width: 1040px;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 .card {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+  flex-basis: 20%;
   flex-grow: 1;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  width: 300px;
 }
+
 .card-header img {
   width: 100%;
   height: 200px;
@@ -126,7 +52,18 @@ blockquote{
 }
 
 
-
+@media screen and (max-width : 1000px) {
+  .container {
+    margin-bottom: 10rem;
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+    
+  }
+  .card{
+    margin: 5rem 1rem 5rem 1rem;
+    min-height: 300px;
+  }
+}
 
 
 
@@ -137,7 +74,7 @@ blockquote{
   justify-content: center;
   align-items: flex-start;
   padding: 20px;
-  min-height: 250px;
+  min-height: 350px;
 }
 
 .tag {
@@ -164,7 +101,7 @@ background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%
 }
 
 .card-body p {
-  font-size: 13px;
+  font-size: 1rem;
   margin-bottom: 3em;
 }
 .user {

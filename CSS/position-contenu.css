@@ -1,0 +1,67 @@
+.informations{
+    justify-content: center;
+    align-items: center;
+    margin: 20rem;
+}
+  
+  .titre{
+    background: rgb(0,37,71);
+    background: linear-gradient(90deg, rgba(0,37,71,1) 0%, rgba(40,12,184,1) 28%, rgba(0,52,180,1) 61%, rgba(66,190,255,1) 86%);
+  }
+
+  .part-information{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10rem 0 10rem 0;
+  }
+
+  .part-information > img{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin: 1rem;
+    width: 70%;
+  }
+
+  
+  .part-information:nth-child(even){
+    flex-direction: row-reverse;
+  }
+
+
+.cartes-content{
+    padding-top: 5rem;
+    flex-basis: 20%;
+    flex-grow: 1;
+}
+
+  .cartes-content > p{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 1.3rem;
+    
+  }
+  
+  
+  blockquote{
+    border-left: thick solid black;
+    padding: 1rem;
+    margin-left: 0;
+    font-size: 1.2rem;
+  }
+  
+
+@media screen and (max-width : 1800px) {
+  .part-information > img{
+    flex-basis: 65%;
+    flex-grow: 1;
+    margin: 0;
+    width: 100%;
+  }
+  .cartes-content{
+    padding-top: 5rem;
+    text-align: center;
+}
+.informations{
+  margin: 20rem 0 20rem 0;
+}
+}
