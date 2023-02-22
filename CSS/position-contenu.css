@@ -1,7 +1,7 @@
 .informations{
     justify-content: center;
     align-items: center;
-    margin: 20rem;
+    margin: 12rem;
 }
   
   .titre{
@@ -11,13 +11,11 @@
 
   .part-information{
     display: flex;
-    flex-wrap: wrap;
-    margin: 10% 0 10% 0;
+    margin: 15rem 0 15rem 0;
   }
 
   .part-information > img{
-    flex-basis: 25%;
-    flex-grow: 1;
+    flex-basis: 55%;
     margin: 1rem;
     width: 70%;
   }
@@ -30,8 +28,7 @@
 
 .cartes-content{
     padding-top: 5rem;
-    flex-basis: 20%;
-    flex-grow: 1;
+    flex-basis: 45%;
 }
 
   .cartes-content > p{
@@ -59,6 +56,7 @@
   }
   .part-information{
     margin: 0 0 20% 0;
+    flex-wrap: wrap;
   }
   .cartes-content{
     padding-top: 5rem;
@@ -74,5 +72,8 @@
 blockquote{
   border-left: none;
   text-decoration: underline;
+}
+.cartes-content{
+  flex-grow: 1;
 }
 }
