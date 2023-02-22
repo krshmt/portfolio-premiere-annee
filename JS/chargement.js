@@ -1,6 +1,6 @@
 setTimeout(function(){
   document.getElementById("loading").style.display = "none";
-}, 10);
+}, 2000);
 
 
 
