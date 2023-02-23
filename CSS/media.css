@@ -9,11 +9,11 @@
 
     .card {
         margin: 5rem 1rem 5rem 1rem;
-        min-height: 300px;
+        min-height: 500px;
     }
 
     .card-header {
-        min-height: 150px;
+        min-height: 250px;
     }
 
     .card-header>a>img {
