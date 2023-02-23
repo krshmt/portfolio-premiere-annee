@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Century;
+    src: url(../POLICES/century/CenturyGothic.ttf);
+}
+
+@font-face {
+  font-family: century_light;
+  src: url(../POLICES/century/07557_CenturyGothicKursiv.ttf);
+}
+html{
+  cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAICAYAAAArzdW1AAAACXBIWXMAABcRAAAXEQHKJvM/AAAAfElEQVQYGYWQwQ3CMAxFX7NA1Q0YIVIDPcImzMAG6QYdoatwjJJDRygbwARBXxQpBxrezfaT/O0m54w7DhaYgDMfHqpTDOrR9O50ABag3YSSMcXgJc3A9YfwpTOAVtWwkv4iSXlqLJI88NqxFPxpUgwrcAHuxVAvuOkygDdMhR9qCMDpaAAAAABJRU5ErkJggg==),auto!important;
+}
+
+body{
+    font-family: Century;
+    margin: 0;
+    font-size: 100%;
+}
+

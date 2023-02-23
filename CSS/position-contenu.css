@@ -46,33 +46,3 @@
   }
   
 
-@media screen and (max-width : 1800px) {
-  .part-information > img{
-    flex-grow: 1;
-    flex-basis: 100%;
-    margin: 0;
-    width: 100%;
-  }
-  .part-information{
-    margin: 0 0 20% 0;
-    flex-wrap: wrap;
-  }
-  .cartes-content{
-    padding-top: 5rem;
-    text-align: center;
-}
-.cartes-content > p{
-  margin: 2%;
-}
-.informations{
-  margin: 20rem 0 20rem 0;
-  padding: 1rem;
-}
-blockquote{
-  border-left: none;
-  text-decoration: underline;
-}
-.cartes-content{
-  flex-grow: 1;
-}
-}
