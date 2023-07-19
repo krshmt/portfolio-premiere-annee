@@ -1,0 +1,67 @@
+
+.intro{
+    display: flex;
+    margin: 0 15% 10% 15%;
+}
+
+.intro > img{
+    flex-grow: 1;
+    width: 70%;
+    margin: 2%;
+}
+
+.contenu{
+    flex-basis: 50%;
+    padding-top: 3%;
+}
+
+.intro:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+.text{
+    display: flex;   
+    color: black;
+    font-size: 125%;
+    font-family: century_normal;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.text > div{
+    background-color: rgba(0, 0, 0, 0.747);
+    padding: 2rem 1rem 2rem 1rem;
+    text-align: center;
+}
+
+.contenu > p{
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+p > span{
+    margin-left: 2rem;
+}
+
+.contenu_impair > ul{
+    margin-top: 15%;
+}
+
+.introduction{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 5%;
+}
+
+.titre-secondaire{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+
+.invit{
+    border: thin solid rgba(87, 87, 87, 0.747);
+    padding: 3%;
+    border-radius: 2rem;
+}
+

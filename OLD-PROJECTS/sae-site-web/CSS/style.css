@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    font-family: century_normal;
+}
+@font-face {
+    font-family: century_normal;
+    src: url(../POLICES/century/CenturyGothic.ttf);
+}
+
+@font-face {
+    font-family: century-bold;
+    src: url(../POLICES/century/CenturyGothic-BoldItalic.ttf);
+}
+
+
+.pre > div{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5rem 2rem 5rem 2rem;
+    margin: 10%;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.haut_de_page{
+    background-image: url(../IMAGES/banniere);
+    background-size: cover;
+    background-position: center;
+    padding: 10% 15rem 10% 15rem;
+    margin-bottom: 10rem;
+}
+
+.pre{
+    display: flex;   
+    color: white;
+    font-size: 125%;
+    font-family: century_normal;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.pre > div{
+    margin: auto;
+    flex-grow: 1;
+}
+.pre > img{
+    width: 15%;
+}
+
+.logoiut{
+    height: 3em;
+    margin-right: -5em;
+}
+
+table{
+  border-collapse: collapse;
+  
+}
+
+table li{
+    list-style-type: circle;
+    list-style: inside
+}
+
+th, td{
+  border: 3px solid black;
+  padding: 10px;
+}

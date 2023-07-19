@@ -1,0 +1,27 @@
+html{
+    scroll-snap-type: y mandatory;
+    -webkit-animation-duration: 1.5s all;
+    -webkit-transition: 1.5s;  
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3b3b3b;
+}
+
+.enfant {
+    scroll-snap-align: start;
+    overflow: hidden;
+    font-family: MontSerrat_thin;
+    color: white;
+    height: 100vh;
+    align-items: center;
+    background-color: #242424;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+} 
+

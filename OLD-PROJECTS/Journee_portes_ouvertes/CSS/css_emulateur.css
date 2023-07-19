@@ -1,0 +1,21 @@
+.test{
+    margin: auto;
+    width: 65%;
+}
+
+.center > iframe{
+    border: thin black solid;
+    height: 250px;
+    width: 100%;
+}
+
+
+.center > textarea{
+    width: 100%;
+    height: 250px;
+    border: thin black solid;
+}
+
+h1{
+    text-align: center;
+}

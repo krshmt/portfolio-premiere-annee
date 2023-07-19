@@ -1,0 +1,133 @@
+/* pour le premier enfant */
+
+@media (max-height: 1000px){
+    .enfant{
+        height: 120vh;
+    }
+}
+
+
+
+@media (max-width: 1861px) {
+    .content-first{
+        display: block;
+        text-align: center;
+    }
+
+    .content-first > img{
+        width: 35%;
+    }
+
+    .content-first-text{
+        text-align: center;
+        padding-top: 5rem;
+        margin-bottom: 5%;
+    }
+
+    .content-first-text > h2{
+        text-align: center;
+    }
+
+    .changement{
+        display: flex;
+  flex-direction: column;
+  align-items: center; /* Centre les éléments horizontalement */
+  justify-content: center;
+    }
+
+    .bulle{
+        border-radius: 5rem;
+    }
+
+    .liens{
+        justify-content: space-evenly;
+        margin: 0;
+    }
+
+    .liens > a > i{
+        margin: 5%;
+    }
+    
+}
+
+@media (max-width: 1283px) {
+    .enfant-1{
+        padding: 10% 10% 10% 10%;
+    }
+}
+
+
+
+
+/* pour le deuxieme enfant */
+@media (max-width: 1003px){
+    .liste-languages{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .liste-languages > li{
+        margin: 2%;
+        flex-basis: 10%;
+    }
+}
+
+@media (max-width: 833px) {
+    .enfant-2{
+        padding: 5%;
+    }
+}
+
+
+
+
+/* pour le troisieme enfant */
+
+@media (max-width: 1003px){
+    .enfant-3{
+        padding: 5% 15% 0 15%;
+    }
+}
+
+/* pour le quatrième enfant */
+@media (max-width: 1500px){
+    .listes-cartes > a{
+        flex-basis: 100%;
+    }
+    .carte{
+        width: 100%;
+        height: auto;
+    }
+    .listes-cartes{
+        justify-content: center;
+    }
+}
+
+
+
+/* pour le cinquième enfant  */
+@media (max-width:1810px){
+    .formation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* Ajoutez la largeur souhaitée pour le conteneur .formation si nécessaire */
+      }
+      
+
+    .carte-formation{
+        margin-right: 0;
+    }
+}
+
+/* pour le sixeme enfant */
+
+@media (max-width:1330px){
+    .ag-courses_box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ag-courses_item{
+        width: 100%;
+    }
+}

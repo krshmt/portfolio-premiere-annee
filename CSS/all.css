@@ -1,37 +1,28 @@
 @font-face {
-    font-family: Century;
-    src: url(../POLICES/century/CenturyGothic.ttf);
+    font-family: MontSerrat;
+    src: url(../FONTS/Montserrat/static/Montserrat-Regular.ttf);
 }
 
 @font-face {
-  font-family: century_light;
-  src: url(../POLICES/century/07557_CenturyGothicKursiv.ttf);
-}
-html{
-  cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAICAYAAAArzdW1AAAACXBIWXMAABcRAAAXEQHKJvM/AAAAfElEQVQYGYWQwQ3CMAxFX7NA1Q0YIVIDPcImzMAG6QYdoatwjJJDRygbwARBXxQpBxrezfaT/O0m54w7DhaYgDMfHqpTDOrR9O50ABag3YSSMcXgJc3A9YfwpTOAVtWwkv4iSXlqLJI88NqxFPxpUgwrcAHuxVAvuOkygDdMhR9qCMDpaAAAAABJRU5ErkJggg==),auto!important;
+    font-family: MontSerrat-bold;
+    src: url(../FONTS/Montserrat/static/Montserrat-Bold.ttf);
 }
 
-body{
-    font-family: Century;
-    margin: 0;
-    font-size: 100%;
+@font-face {
+    font-family: MontSerrat_thin;
+    src: url(../FONTS/Montserrat/static/Montserrat-Light.ttf);
 }
 
-::-webkit-scrollbar {
-  width: 8px; /* Epaisseur de la barre de défilement */
-  height: 8px;
-  border-radius: 4px; /* Coins arrondis */
-  background-color: #f1f1f1; /* Couleur de fond de la barre */
+@font-face {
+    font-family: brave-gates;
+    src: url(../FONTS/brave-gates/Brave\ Gates.ttf);
 }
 
-/* Personnalisation du curseur de la barre de défilement */
-::-webkit-scrollbar-thumb {
-  background-color: #888; /* Couleur du curseur */
-  border-radius: 4px; /* Coins arrondis */
+@font-face {
+    font-family: fightback;
+    src: url(../FONTS/fightback/FIGHTBACK.ttf);
 }
 
-/* Personnalisation de la poignée de la barre de défilement */
-::-webkit-scrollbar-thumb:hover {
-  background-color: #555; /* Couleur de survol du curseur */
+h2{
+    font-size: .9rem;
 }
-

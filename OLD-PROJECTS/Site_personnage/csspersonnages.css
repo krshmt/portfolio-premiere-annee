@@ -1,0 +1,131 @@
+body{
+  display : flex;
+  flex-wrap: wrap;
+  font-family :'Courier New', Courier, monospace;
+  background-color: black;
+  color : white;
+  font-size : 1.2rem;
+  font-style: oblique 7deg;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0em;
+}
+
+a{
+  text-decoration : none;
+  color : white;
+}
+
+header{
+  flex-grow : 1;
+}
+
+header>nav>ul{
+display: flex;
+flex-wrap: nowrap;
+}
+
+nav>ul>li{
+  flex-grow: 1;
+}
+
+nav>ul>li:hover{ 
+  background-color: #000;
+  filter: invert(1);
+  transition: 0.8s;
+}
+
+
+video{
+  width: 100%;
+}
+
+
+main{
+  flex-basis: 65%;
+  flex-grow : 1;
+}
+
+aside{
+  flex-basis: 25%;
+  flex-grow: 1;
+  margin : 1em;
+  padding : 1em;
+  margin-right: 0em;
+}
+
+footer{
+  flex-basis: 100%;
+  text-align : center;
+}
+
+
+.pair > img{
+  width: 20%;
+  float: left;
+  margin : 0.5em;
+  border-radius : 15px;
+}
+.impair >img{
+  width: 16%;
+  float: right;
+  margin : 0.5em;
+  border-radius : 15px;
+}
+
+aside > div > p>a:hover{
+  font-size: 1.1em;
+}
+
+main>ul>li{
+  margin-top :3em;
+  margin-bottom : 3em;
+}
+
+nav li{
+  border : solid thin ;
+  text-align: center;
+  border-radius: 5px
+}
+
+aside{
+  border : solid thin;
+  border-radius: 5px;
+}
+aside>nav>ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer{
+  border : solid thin ;
+  border-radius: 5px;
+}
+
+
+.diagonal-section {
+  /* Used to position the diagonal area */
+  position: relative;
+}
+
+.diagonal-section__diagonal {
+  /* Absolute position */
+  left: 0px;
+  position: absolute;
+  top: 0px;
+
+  /* Take full size */
+  height: 100%;
+  width: 100%;
+
+  /* Create diagonal sides */
+  transform: skewY(-5deg);
+
+  /* Background color */
+  background-color: #d1d5db;
+
+  /* Displayed under the main content */
+  z-index: -1;
+}

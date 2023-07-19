@@ -1,0 +1,23 @@
+.changement-text::after{
+  display: inline-block;
+  content: "\00a0";
+  animation: blink 0.7s infinite;
+}
+
+
+@keyframes blink {
+  0%
+  {
+    background-color: silver;
+  }
+
+  50%
+  {
+    background-color: transparent;
+  }
+
+  100%{
+    background-color: silver;
+  }
+  
+}

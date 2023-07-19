@@ -1,0 +1,73 @@
+.liste-languages{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.enfant-2{
+    overflow: hidden;
+    font-family: MontSerrat_thin;
+    color: white;
+    padding: 10% 20% 0 20%;
+    text-align: center;
+    font-size: 100%;
+}
+
+.enfant-2 > p:first-of-type{
+    margin-bottom: 10px;
+}
+
+.enfant-2 > p:last-of-type{
+    margin-bottom: 5rem;
+}
+
+.liste-languages > li{
+    list-style: none;
+    padding: 0;
+}
+
+.liste-languages > li > span{
+    border: 1px solid #774bbb;
+    padding: 4px 10px;
+    border-radius: 5px;
+    margin: 0 10px 0 10px;
+}
+
+
+
+.download-pdf{
+    text-decoration: none;
+}
+
+.download-pdf > span {
+    background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5rem;
+    cursor: pointer;
+  }
+
+
+
+.download-pdf > span:hover{
+    background : rgba(255,57,57,1);
+}
+
+.animation-container > p:last-of-type{
+    margin-bottom: 5rem;
+}
+
+
+.slide-in{
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+    margin-top: 5rem;
+}
+
+.slide-in.active{
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+

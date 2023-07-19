@@ -1,0 +1,27 @@
+h3{
+    text-align: center;
+}
+
+.explication{
+    margin: 0 10% 5% 10%;
+    text-align: center;
+}
+
+.explication li{
+    text-align: justify;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 1%;
+}
+
+
+.contenu li{
+    margin-bottom: 5%;
+}
+
+.premier {
+    margin: 0 10% 5% 10%;
+    text-align: center;
+}

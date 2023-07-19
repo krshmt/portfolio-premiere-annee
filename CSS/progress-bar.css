@@ -1,0 +1,138 @@
+.progress {
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  .progress ul {
+    display: block;
+  }
+  .progress ul li {
+    list-style-type: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-bottom: 60px;
+    position: relative;
+  }
+  
+  .progress ul li::before {
+    content: "";
+    position: absolute;
+    height: 7px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    top: calc(100% + 10px);
+    left: 0;
+    border-radius: 10px;
+  
+    /* z-index: 1; */
+  }
+  .progress ul li::after {
+    content: "";
+    position: absolute;
+    height: 7px;
+    width: 0;
+    background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+    top: calc(100% + 10px);
+    left: 0;
+    border-radius: 10px;
+    animation-duration: 1.2s;
+    animation-direction: forward;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+  }
+
+
+  /* .progress ul li.html::after {
+    animation-name: html;
+  } */
+
+  .progress.animate-on-scroll.animate ul li.html::after {
+    animation-name: html;
+  }
+  
+  @keyframes html {
+    to {
+      width: 70%;
+      background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+    }
+  }
+  .progress.animate-on-scroll.animate ul li.css::after {
+    animation-name: css;
+  }
+  @keyframes css {
+    to {
+      width: 60%;
+      background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+    }
+  }
+  .progress.animate-on-scroll.animate ul li.javascript::after {
+    animation-name: javascript;
+  }
+  @keyframes javascript {
+    to {
+      width: 5%;
+      background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+    }
+  }
+  .progress.animate-on-scroll.animate ul li.java::after {
+    animation-name: java;
+  }
+  @keyframes java {
+    to {
+      width: 50%;
+      background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+    }
+  }
+  .progress.animate-on-scroll.animate ul li.mysql::after {
+    animation-name: mysql;
+  }
+  @keyframes mysql {
+    to {
+      width: 60%;
+      background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+    }
+  }
+  .progress.animate-on-scroll.animate ul li.python::after {
+    animation-name: python;
+  }
+  @keyframes python {
+    to {
+      width: 70%;
+      background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+    }
+  }
+
+  .progress.animate-on-scroll.animate ul li.travail::after {
+    animation-name: travail;
+  }
+  
+  @keyframes travail {
+    to {
+      width: 60%;
+      background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+    }
+  }
+
+  .progress.animate-on-scroll.animate ul li.communication::after {
+    animation-name: communication;
+  }
+
+  @keyframes communication {
+    to {
+      width: 60%;
+      background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+    }
+  }
+
+  .progress.animate-on-scroll.animate ul li.gestion::after {
+    animation-name: gestion;
+  }
+
+  @keyframes gestion {
+    to {
+      width: 55%;
+      background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+    }
+  }
