@@ -7,7 +7,6 @@
 }
 
 
-
 @media (max-width: 1861px) {
     .content-first{
         display: block;
@@ -100,6 +99,9 @@
     }
     .listes-cartes{
         justify-content: center;
+    }
+    .enfant-4{
+        height: auto;
     }
 }
 
