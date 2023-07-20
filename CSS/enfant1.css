@@ -1,0 +1,45 @@
+.enfant-1{
+    padding: 0 25% 0 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-first{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    flex-basis: 50%;
+    overflow: hidden;
+    width: 30%;
+}
+
+.content-first-text{
+    flex-grow: 1;
+    align-items: center;
+}
+
+.bulle{
+    background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+    padding: 10px 30px 10px 30px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.prenom{
+    font-size: 65px;
+    text-align: start;
+}
+
+.content-first-text{
+    padding-top: 2rem;
+}
+
+.changement{
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.fixe{margin-right: 5px;}

@@ -1,0 +1,16 @@
+.portfolio-titre{
+    text-align: center;
+    padding-bottom: 2rem;
+    margin-top: 10rem;
+    font-size: 2.3rem;
+}
+
+.enfant-4{
+    padding: 0 20% 0 20%;
+}
+
+.listes-cartes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

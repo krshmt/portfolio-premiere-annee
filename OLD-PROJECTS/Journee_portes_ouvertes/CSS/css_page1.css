@@ -1,0 +1,186 @@
+body{
+    background-color: white;
+    color : white;
+    margin: 0px;
+    font-family: "Rubik";
+}    
+
+@font-face {
+    font-family: "Rubik";
+    src: url(../Police_ecriture/rubik/Rubik-Light.ttf);
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 200%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 1%;
+    border-bottom: thin black solid;
+    font-family: "Rubik";
+    opacity: 0;
+    animation: titleAnimate 1s ease-in-out forwards;
+    transform: translateY(20px);
+}
+
+@keyframes titleAnimate {
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+nav>ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+nav>ul>li{
+    font-weight: bold;
+    font-size: 100%;
+}
+
+header  a{
+    text-decoration: none;
+    color: black;
+    border-bottom: none;
+}
+
+header a:hover{
+    border-bottom: 2px black solid ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.mooc{
+    color: white;
+}
+
+header li{
+    list-style-type: none;
+    margin: none;
+}
+
+h2{
+    text-align: center;
+    color : #ffd77a;
+    border-bottom: thin white solid;
+    font-weight: bold;    
+    font-family: "Rubik";
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+}
+.premiereparti{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #212e3b;
+    border-radius: 5px;
+    
+}
+
+div > ul > li{
+    margin : 5em;
+    font-size: large;
+    line-height: 25px;
+    font-weight: lighter;
+    list-style: none;
+}
+
+.firstpart{
+    padding: 0px;
+}
+
+.firstpart > a , .firstpart > p{
+    font-size: large;
+    line-height: 30px;
+    color: white;
+    font-weight: lighter;
+}
+header{
+    background-color: #fde7b3;
+    margin-bottom: 2%;
+    padding: 2%;
+    padding-bottom: 1%;
+}
+
+strong{
+    border-bottom: none;
+}
+.mooc:hover{
+    border-bottom: thin solid white;
+}
+
+.secondpart{
+    margin-top: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: #fde7b3;
+    color: black;
+}
+
+.secondpart > p{
+    color: black;
+}
+.secondpart > strong{
+    border-bottom: thin black solid;
+}
+
+.secondpart h2{
+    color: black;
+    border-bottom: black thin solid;
+}
+.secondpart a{
+    color: black;
+}
+.secondpart strong{
+    border-bottom: none;
+}
+.secondpart > strong:hover{
+    border-bottom: black thin solid;
+}
+
+
+.vscode{
+    float: right;
+    width: 18%;
+}
+
+.requis > ul > li > a:hover{
+    border-bottom: thin black solid;
+}
+
+p{
+    line-height: 175%;
+    font-size: 100%;
+
+}
+.secondpart > ul{
+    padding: 0%;
+}
+
+
+footer{
+    padding: 1%;
+    background-color: #212e3b;
+    color: white;
+}

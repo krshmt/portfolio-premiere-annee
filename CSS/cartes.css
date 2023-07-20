@@ -1,0 +1,52 @@
+.carte {
+    position: relative;
+    /* Autres styles pour l'élément conteneur */
+    width: 21rem;
+    height: 13rem;
+    margin-bottom: 1.3rem;
+    
+  }
+  
+  .carte-1 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  .carte .contenu {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff; /* Couleur du texte */
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .carte:hover .contenu{
+    opacity: 1;
+    z-index: 999;
+  }
+
+  .carte::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(134, 83, 255, 0.808); /* Couleur de fond violette semi-transparente */
+    z-index: 1; /* Placez le pseudo-élément au-dessus de l'image */
+    opacity: 0; /* Masquer le voile par défaut */
+    border-radius: 10px; /* Bordures arrondies */
+
+  }
+
+  .carte:hover::before{
+    opacity: 1;
+  }
+
+
+  

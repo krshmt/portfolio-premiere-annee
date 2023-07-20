@@ -1,0 +1,45 @@
+/* pour les liens */
+.page{
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+   
+.page::after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  margin : 0 auto;
+  background: #000;
+  transition: width 0.5s ease-in-out;
+}
+
+.page:hover::after{
+  width: 100%;
+}
+
+
+/* pour aller sur les autres pages */
+.invit:hover{
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+}
+
+/* pour le footer */
+.fa-twitter:hover{
+    background-color: #1C9CF4;
+    transition: 0.5s;
+}
+
+.fa-linkedin:hover{
+    background-color: #0C64C4;
+    transition: 0.5s;
+}
+
+.fa-instagram:hover{
+    background-color: #F109C4;
+    transition: 0.5s;
+}
+

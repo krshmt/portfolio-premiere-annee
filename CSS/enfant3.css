@@ -1,0 +1,145 @@
+.enfant-3 > div{
+    display: flex;
+}
+
+.enfant-3{
+    padding: 5% 25% 0 25%;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 175%;
+}
+
+/* .infos{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.competences-techniques{
+    flex-basis: 50%;
+    margin-right: 5rem;
+}
+
+
+.competences-equipes{
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress1 {
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  .progress1 ul {
+    display: block;
+  }
+  .progress1 ul li {
+    list-style-type: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-bottom: 60px;
+    position: relative;
+  }
+  
+  .progress1 ul li::before {
+    content: "";
+    position: absolute;
+    height: 7px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    top: calc(100% + 10px);
+    left: 0;
+    border-radius: 10px;
+  
+    /* z-index: 1; */
+  }
+  .progress1 ul li::after {
+    content: "";
+    position: absolute;
+    height: 7px;
+    width: 0;
+    background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+    top: calc(100% + 10px);
+    left: 0;
+    border-radius: 10px;
+  
+    animation-duration: 1s;
+    animation-delay: .3s;
+    animation-direction: forward;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+  }
+
+  .progress1.animate-on-scroll.animate ul li.travail::after {
+    animation-name: travail;
+  }
+  
+  @keyframes travail {
+    to {
+      width: 60%;
+      background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+    }
+  }
+  .progress1.animate-on-scroll.animate ul li.communication::after {
+    animation-name: communication;
+  }
+  @keyframes communication {
+    to {
+      width: 60%;
+      background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+    }
+  }
+  .progress1.animate-on-scroll.animate ul li.gestion::after {
+    animation-name: gestion;
+  }
+  @keyframes gestion {
+    to {
+      width: 55%;
+      background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+    }
+  }
+
+
+
+.cote{
+  transform: translateX(-30%);
+  opacity: 0;
+  transition: transform .6s linear, opacity .4s ease-in-out;
+}
+
+.cote.active{
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+
+.cote-oppose{
+  transform: translateX(30%);
+  opacity: 0;
+  transition: transform .6s linear, opacity .6s ease-in-out;
+}
+
+.cote-oppose.active{
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+
+/* .slide-in{
+  transform: translateY(20%);
+  opacity: 1;
+  transition: transform 1s linear;
+  margin-top: 5rem;
+}
+
+.slide-in.active{
+  transform: translateY(0%);
+} */

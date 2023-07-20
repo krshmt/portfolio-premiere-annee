@@ -1,0 +1,189 @@
+/*pour la police d'écriture*/
+@font-face {
+    font-family: Century;
+    src: url(../police/century/CenturyGothic-Bold.ttf);
+}
+@font-face {
+    font-family: Shippori;
+    src: url(../police/logo/ShipporiMincho-SemiBold.ttf);
+}
+@font-face {
+    font-family: Century_regular;
+    src: url(../police/century/CenturyGothic.ttf);
+}
+body{
+    margin: 0px;
+    font-size: 100%;}
+li{
+    list-style: none;
+}
+/*Nvagation dans la page */
+.navigation_page{
+    border-top: .001em solid rgb(212, 212, 212);
+    border-bottom: .001em solid rgb(211, 211, 211);
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+/* pour le header*/
+nav > ul{
+    display: flex;
+}
+nav>ul>li{
+    margin-left: 2vw;
+    font-size: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: inline;
+    font-size: .8em;
+    font-family: Century_regular;
+}
+nav > ul > li > a:hover{
+    font-weight: 600;
+}
+
+.titre{
+    font-family: Shippori;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: 2rem;
+    letter-spacing: .01em;
+}
+nav > ul{
+    padding: 0px;
+} 
+
+h1{
+    margin: 0px;
+}
+.bande_annonce{
+    width: 100%;
+}
+
+/* Pour les produits phares de l'entreprise*/
+.presentation{
+    margin-bottom: 2rem;
+}
+.produit_phare{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: 4rem;
+    font-family: Century_regular;
+    margin-bottom: 3rem;
+}
+.parfum > p{
+    text-align: center;
+    margin-bottom: 1em;
+}
+.img_parfum{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.commande{
+    display: block;
+    border: thin black solid;
+    padding: 1em;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+    margin-bottom: 5rem;
+}
+span{
+    text-align: center;
+}
+span:hover{
+    background-color: black;
+    color: white;
+}
+h3{
+    text-align: center;
+    margin-top: 3em;
+}
+h4{
+    text-align: center;
+}
+.gris{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    color: #FFF;
+}
+
+/* Ventes de produits DIOR*/
+.autres > ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.produits{
+    margin: auto;
+    max-width: 635px;
+}
+
+.produits > p{
+    font-size: .8125rem;
+    font-family: Century_regular;
+}
+.hashtags{
+    font-family: Century_regular;
+}
+.nom_parfum , .prix{
+    font-weight: bold;
+    font-family: Century_regular;
+}
+.description{
+    margin-bottom: 1.2rem;
+}
+@media(width < 1340px){
+    .produits{
+        flex-direction: column;
+    }
+}
+p, h3, h4{
+    font-family: Century_regular;
+}
+/* Pour les remerciemments (prank)*/
+.prank{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: 4rem;
+    font-family: Century_regular;
+    border-top: solid black thin;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    padding-bottom: 2em;
+}
+.prank > div{
+    display: flex;
+    box-sizing: border-box;
+}
+.prank > h3{
+    color: white;
+    margin-left: 1rem;
+    margin-bottom: 2em;
+    margin-top: 2rem;
+    border-bottom: thin solid white;
+    padding-bottom: 1em;
+}
+
+.daron{
+    margin-left: 5rem;
+    width: 100%;
+    min-width: 10%;
+    max-width: 12%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+/*Footer pour l'instant aucun footer*/

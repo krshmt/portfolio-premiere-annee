@@ -1,0 +1,28 @@
+@font-face {
+    font-family: MontSerrat;
+    src: url(../FONTS/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: MontSerrat-bold;
+    src: url(../FONTS/Montserrat/static/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: MontSerrat_thin;
+    src: url(../FONTS/Montserrat/static/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: brave-gates;
+    src: url(../FONTS/brave-gates/Brave\ Gates.ttf);
+}
+
+@font-face {
+    font-family: fightback;
+    src: url(../FONTS/fightback/FIGHTBACK.ttf);
+}
+
+h2{
+    font-size: .9rem;
+}
