@@ -9,7 +9,7 @@
   }
   .progress ul li {
     list-style-type: none;
-    color: #fff;
+    color: #000;
     font-weight: bolder;
     font-size: 18px;
     margin-bottom: 60px;
@@ -33,7 +33,7 @@
     position: absolute;
     height: 7px;
     width: 0;
-    background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+    background: black;
     top: calc(100% + 10px);
     left: 0;
     border-radius: 10px;
@@ -55,7 +55,7 @@
   @keyframes html {
     to {
       width: 70%;
-      background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+      background: black;
     }
   }
   .progress.animate-on-scroll.animate ul li.css::after {
@@ -64,7 +64,7 @@
   @keyframes css {
     to {
       width: 60%;
-      background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+      background: black;
     }
   }
   .progress.animate-on-scroll.animate ul li.javascript::after {
@@ -73,7 +73,7 @@
   @keyframes javascript {
     to {
       width: 5%;
-      background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+      background: black;
     }
   }
   .progress.animate-on-scroll.animate ul li.java::after {
@@ -82,7 +82,7 @@
   @keyframes java {
     to {
       width: 50%;
-      background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+      background: black;
     }
   }
   .progress.animate-on-scroll.animate ul li.mysql::after {
@@ -91,7 +91,7 @@
   @keyframes mysql {
     to {
       width: 60%;
-      background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+      background: black;
     }
   }
   .progress.animate-on-scroll.animate ul li.python::after {
@@ -100,7 +100,7 @@
   @keyframes python {
     to {
       width: 70%;
-      background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+      background: black;
     }
   }
 
@@ -111,7 +111,7 @@
   @keyframes travail {
     to {
       width: 60%;
-      background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+      background: black;
     }
   }
 
@@ -122,7 +122,7 @@
   @keyframes communication {
     to {
       width: 60%;
-      background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+      background: black;
     }
   }
 
@@ -133,6 +133,6 @@
   @keyframes gestion {
     to {
       width: 55%;
-      background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+      background: black;
     }
   }

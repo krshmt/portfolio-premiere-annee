@@ -8,7 +8,7 @@
 @keyframes blink {
   0%
   {
-    background-color: silver;
+    background-color: rgb(0, 0, 0);
   }
 
   50%
@@ -17,7 +17,7 @@
   }
 
   100%{
-    background-color: silver;
+    background-color: rgb(0, 0, 0);
   }
   
 }

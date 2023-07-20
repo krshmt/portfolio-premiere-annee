@@ -7,21 +7,23 @@
 .content-first{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 img{
-    flex-basis: 50%;
+    flex-basis: 40%;
     overflow: hidden;
     width: 30%;
 }
 
 .content-first-text{
-    flex-grow: 1;
+    flex-basis: 55%;
     align-items: center;
 }
 
 .bulle{
-    background: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(76,0,255,1) 100%);
+    background: black;
+    color: white;
     padding: 10px 30px 10px 30px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
