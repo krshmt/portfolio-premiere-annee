@@ -1,11 +1,10 @@
 /* pour le premier enfant */
 
 @media (max-height: 1000px){
-    .enfant{
+    .enfant-4{
         height: 120vh;
     }
 }
-
 
 
 @media (max-width: 1861px) {
@@ -47,6 +46,8 @@
     .liens > a > i{
         margin: 5%;
     }
+
+    
     
 }
 
@@ -54,6 +55,7 @@
     .enfant-1{
         padding: 10% 10% 10% 10%;
     }
+    
 }
 
 
@@ -85,7 +87,19 @@
 
 @media (max-width: 1003px){
     .enfant-3{
-        padding: 5% 15% 0 15%;
+        padding: 15vh 10vw 0 10vw;
+    }
+}
+
+@media (max-width:650px){
+    .enfant-3 > div {
+        display: flex;
+        flex-direction: column; /* Afficher les éléments en colonne */
+    }
+
+    .competences-techniques,
+    .competences-equipes {
+        flex-basis: 100%; /* Prend toute la largeur disponible */
     }
 }
 
@@ -101,7 +115,11 @@
     .listes-cartes{
         justify-content: center;
     }
+    .enfant-3{
+        padding-top: 15vh;
+    }
 }
+
 
 
 

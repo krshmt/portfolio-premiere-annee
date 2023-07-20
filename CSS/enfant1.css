@@ -1,5 +1,5 @@
 .enfant-1{
-    padding: 0 25% 0 25%;
+    padding: 0 20vw 0 20vw;
     display: flex;
     flex-wrap: wrap;
 }
@@ -40,6 +40,7 @@ img{
 .changement{
     display: flex;
     margin-bottom: 5rem;
+    font-size: 3vw;
 }
 
 .fixe{margin-right: 5px;}
