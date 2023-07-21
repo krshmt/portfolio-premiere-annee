@@ -1,11 +1,11 @@
 html{
-    scroll-snap-type: y mandatory;
-    -webkit-animation-duration: 1.5s all;
-    -webkit-transition: 1.5s;  
     background-image: url(../IMG/16968552-ligne-ondulee-de-couleur-degrade-bleu-vague-sur-fond-blanc-gradient-vecteur-maillage-vectoriel.jpg);
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
     background-attachment: fixed; /* Fixe l'image lors du scroll */
     background-size: cover; 
+
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
 }
 
 body {
@@ -14,14 +14,25 @@ body {
     color: black;
 }
 
+
 .enfant {
     background-color: transparent;
     scroll-snap-align: start;
     overflow: hidden;
     font-family: MontSerrat-semi;
     height: 100vh;
+    scroll-snap-align: center;
+
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    scroll-behavior: smooth;
+}
+
+.enfant>div{
+    flex-grow: 1;
 }
 
 ::-webkit-scrollbar {
