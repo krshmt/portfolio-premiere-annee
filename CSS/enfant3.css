@@ -1,5 +1,6 @@
 .flex{
     display: flex;
+    justify-content: space-between;
 }
 
 .enfant-3{
@@ -18,13 +19,12 @@ h2{
 } */
 
 .competences-techniques{
-    flex-basis: 50%;
-    margin-right: 5rem;
+    flex-basis: 45%;
 }
 
 
 .competences-equipes{
-    flex-grow: 1;
+    flex-basis: 45%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
