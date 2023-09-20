@@ -37,7 +37,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .carte-formation > h4{
-    color: #5ac7f2;
+    color: #000000;
+    font-family: MontSerrat_thin;
 }
 
 .carte-formation > h5{
