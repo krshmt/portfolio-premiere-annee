@@ -1,10 +1,4 @@
-html{
-    background-image: url(../IMG/16968552-ligne-ondulee-de-couleur-degrade-bleu-vague-sur-fond-blanc-gradient-vecteur-maillage-vectoriel.jpg);
-    background-repeat: no-repeat; /* Empêche la répétition de l'image */
-    background-attachment: fixed; /* Fixe l'image lors du scroll */
-    background-size: cover; 
-
-    scroll-snap-type: y mandatory;
+html{scroll-snap-type: y mandatory;
     overflow-y: scroll;
 }
 
