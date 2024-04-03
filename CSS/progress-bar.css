@@ -72,7 +72,7 @@
   }
   @keyframes javascript {
     to {
-      width: 5%;
+      width: 15%;
       background: black;
     }
   }
@@ -81,7 +81,7 @@
   }
   @keyframes java {
     to {
-      width: 50%;
+      width: 20%;
       background: black;
     }
   }
@@ -90,7 +90,7 @@
   }
   @keyframes mysql {
     to {
-      width: 60%;
+      width: 40%;
       background: black;
     }
   }
@@ -99,7 +99,7 @@
   }
   @keyframes python {
     to {
-      width: 70%;
+      width: 50%;
       background: black;
     }
   }
