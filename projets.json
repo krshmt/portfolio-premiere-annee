@@ -1,0 +1,142 @@
+{
+    "projets" : [
+        {
+            "id" : 0,
+            "nom" : "Site Dior",
+            "realisation" : "Autonome",
+            "description" : "Site de la marque Dior, réalisé en HTML et CSS. Ce site à était réalisé durant ma première année de BUT Informatique. Je l'ai fait afin de m'améliorer sur les HTML et CSS",
+            "lien" : "https://krshmt.github.io/portfolio-premiere-annee/OLD-PROJECTS/site_dior/html/Site%20internet%20dior.html",
+            "langages" : ["HTML", "CSS"]
+        },
+        {
+            "id" : 1,
+            "nom" : "Ancien Portfolio",
+            "realisation" : "Autonome",
+            "description" : "Deuxième Portfolio réalisé à la fin de ma première année de BUT Informatique. Ce site avait plusieurs objectifs. Le premier était de montrer mes compétences en développement WEB en montrant mes projets académiques mais aussi pour montrer mes compétences en design. J'ai donc réalisé ce site en HTML, CSS et JavaScript. Le site utilise le scroll snap",
+            "lien" : "https://krshmt.github.io/portfolio-premiere-annee/HTML/index.html",
+            "langages" : ["HTML", "CSS", "JavaScript"]
+        },
+        {
+            "id" : 2,
+            "nom" : "Escrime",
+            "realisation" : "Projet Universitaire",
+            "description" : "Projet réalisé en 5 semaines en groupe de 5 personnes. Application réalisé en FLASK, HTML, CSS et Javascript. Cette dernière avait pour objectif de digitaliser la gestion d'une compétition d'escrime pour le club d'escrime de Blois. Dans ce projet, j'ai eu l'opportunité d'être développeur Front-end. J'ai pu gérer la réalisation des maquettes jusqu'à la réalisation du Front-end de l'application",
+            "lien" : "https://github.com/araviart/COMP_ESCRIME",
+            "langages" : ["HTML", "CSS", "Flask", "JavaScript"]
+        },
+        {
+            "id" : 3,
+            "nom" : "Spot'Music",
+            "realisation" : "Projet Universitaire",
+            "description" : "Projet réalisé en 3 semaines en équipe de 2 personnes. Application WEB réalisé en PHP, CSS, JavaScript et SQLITE qui a pour but de consulter des albums, des artistes, les détails de ces derniers ainsi que leur titres. Elle comprend aussi des éléments dynamiques comme la barre de recherche, l'ajout de titres dans nos coups de cœur, l'ajout de titres dans une playlist crée par l'utilisateur ou bien des animations pour la connexion/inscription. Pour finir, l'application contient un module administrateur pour faire un CRUD sur nos artistes/albums.",
+            "lien" : "https://github.com/RemiBly/SAEWebPHP",
+            "langages" : ["PHP", "CSS", "JavaScript", "SQLITE"]
+        },
+        {
+            "id" : 4,
+            "nom" : "VintIK",
+            "realisation" : "Autonome",
+            "description" : "En cours :)",
+            "lien" : "",
+            "langages" : ["React", "TypeScript", "Framer Motion", "CSS"]
+        },
+        {
+          "id" : 5,
+          "nom" : "Hub-Lo",
+          "realisation" : "Projet Stage",
+          "description" : "Projet réalisé en stage de deuxième année de BUT Informatique. L'objectif de ce stage, faire la refonte du site du consortium avec l'ajout de fonctionnalités. Durée du stage : 2 mois",
+          "lien" : "https://hub-lo.fr/",
+          "langages" : ["HTML", "CSS", "JS", "Wordpress", "Elementor", "Brevo", "Plesk", "Figma" ]
+      } 
+    ],
+    "langages" : [
+        {
+          "img": {
+            "src": "ImgReact",
+            "alt": ""
+          },
+          "h3": "React",
+          "p": {
+            "className": "description__competence",
+            "text": "Un framework JavaScript me permettant de faire des applications web. Il m'a permit de faire ce Portfolio et va me permettre de faire une application pour simuler un site de vêtements pour une entreprise"
+          }
+        },
+        {
+          "img": {
+            "src": "ImgFrameMotion",
+            "alt": ""
+          },
+          "h3": "Framer Motion",
+          "p": {
+            "className": "description__competence",
+            "text": "Nouvelle compétence acquérit pour faire la plupart des animations du site. Indispensable lors de la création d'applications WEB avec React"
+          }
+        },
+        {
+          "img": {
+            "src": "ImgTypeScript",
+            "alt": ""
+          },
+          "h3": "TypeScript",
+          "p": {
+            "className": "description__competence",
+            "text": "Nouvelle compétence obtenu grace à ce Portfolio. Son grand avantage, le typage assez forcé des variables. Il permet de mieux débugger le code."
+          }
+        },
+        {
+          "img": {
+            "src": "ImgReact",
+            "alt": ""
+          },
+          "h3": "HTML",
+          "p": {
+            "className": "description__competence",
+            "text": "Un site WEB commence forcément avec du HTML. Permet de faire le squette de mon application"
+          }
+        },
+        {
+          "img": {
+            "src": "ImgReact",
+            "alt": ""
+          },
+          "h3": "CSS",
+          "p": {
+            "className": "description__competence",
+            "text": "J'utilise CSS pour le placement de mes balises HTML, les transitions et animations en complément de Framer Motion"
+          }
+        },
+        {
+          "img": {
+            "src": "ImgReact",
+            "alt": ""
+          },
+          "h3": "JavaScript",
+          "p": {
+            "className": "description__competence",
+            "text": "Javascript, le langage indispensable pour tout développeur Front-End. Il me permet de rendre mon site dynamique et de faire des animations. Permet aussi de faire le lien entre la base de données et le Front-End"
+          }
+        },
+        {
+          "img": {
+            "src": "ImgReact",
+            "alt": ""
+          },
+          "h3": "Figma",
+          "p": {
+            "className": "description__competence",
+            "text": "L'outil indispensable pour tout développeur Front-End. Il me permet de faire des maquettes avec des animations pour avoir un rendu final de mon application avant de la coder."
+          }
+        },
+        {
+          "img": {
+            "src": "ImgReact",
+            "alt": ""
+          },
+          "h3": "Git",
+          "p": {
+            "className": "description__competence",
+            "text": "Outil de versionning indispensable pour tout développeur. Il me permet de sauvegarder mon code et de travailler en équipe sur un même projet."
+          }
+        }
+      ]
+}
